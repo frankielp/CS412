@@ -1,3 +1,31 @@
+# NeRF Synthetic
+### Result
+|          | SSIM    | PSNR     | LPIPS   |
+| -------- | ------- | -------- | ------- |
+| lego     | 0.80853 | 23.89790 | 0.21417 |
+| mic      | 0.80853 | 23.89790 | 0.21417 |
+| ficus    | 0.88397 | 29.85636 | 0.16850 |
+| chair    | 0.88776 | 27.12920 | 0.17990 |
+| hotdog   | 0.66509 | 19.72759 | 0.23759 |
+| ship     | 0.95225 | 31.59319 | 0.12552 |
+| materials| 0.90116 | 25.44979 | 0.18855 |
+| drums    | 0.90116 | 25.44979 | 0.18855 |
+### Visualize
+|          | Render Image    | Grouth truth     | 
+| -------- | ------- | -------- |
+| lego     | ![[Pasted image 20231206173245.png]] |![[Pasted image 20231206173310.png]]|
+| mic      |  |  | 
+| ficus    |  |  | 
+| chair    |  |  | 
+| hotdog   |  |  | 
+| ship     |  |  | 
+| materials|  |  | 
+| drums    |  |  | 
+# MipNeRF 360
+### Result
+
+# Tank&Temple
+### Result
 
 # LLFF Dataset
 
