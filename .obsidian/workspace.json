@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "653a8d50eddc3475",
+        "id": "71d1103981b5eb97",
         "type": "tabs",
         "children": [
           {
-            "id": "664307077e0bca91",
+            "id": "f1939085ff361baf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assignment 03. Experiment.md",
+                "file": "Assignment 04. Improvement.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignment 03. Experiment.md",
+                "file": "Assignment 04. Improvement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignment 03. Experiment.md",
+                "file": "Assignment 04. Improvement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assignment 03. Experiment.md"
+                "file": "Assignment 04. Improvement.md"
               }
             }
           }
@@ -143,32 +143,36 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "664307077e0bca91",
+  "active": "f1939085ff361baf",
   "lastOpenFiles": [
-    "homography computation.md",
+    "Images/tank&temple/train_3dgs.png",
+    "Images/tank&temple/00000.png",
+    "Images/tank&temple/truck_3dgs.png",
+    "Images/llff dataset/fortress_3dgs.png",
+    "Images/llff dataset/00000.png",
+    "Images/llff dataset/flower_3dgs.png",
+    "Images/llff dataset/fern_3dgs.png",
+    "Images/llff dataset/fern_2dgs.png",
+    "Images/llff dataset/trex_3dgs.png",
+    "Images/llff dataset/trex_2dgs.png",
+    "Images/llff dataset/room_3dgs.png",
+    "README.md",
     "Assignment 03. Experiment.md",
-    "Images/llff dataset/trex/renders/00000.png",
-    "Images/llff dataset/trex/gt/00000.png",
-    "Images/llff dataset/trex/renders/00001.png",
-    "Images/llff dataset/trex/renders/00002.png",
-    "Images/llff dataset/trex/gt/00001.png",
-    "Images/llff dataset/trex/gt/00002.png",
-    "Images/llff dataset/fortress/renders/00000.png",
-    "Images/llff dataset/fortress/gt/00002.png",
-    "Images/llff dataset/fortress/gt/00001.png",
-    "Images/llff dataset/fortress/gt/00000.png",
+    "20125110-20125125-Submission02.zip",
+    "Assignment 03. Experiment.zip",
+    "Assignment 03. Experiment.pdf",
+    "src.zip",
+    "src/scripts/gaussian_splatting_colab.ipynb",
+    "Images/llff dataset/fern/gt/00000.png.md",
+    "Images/llff dataset/fern/gt",
+    "Images/llff dataset/fern",
+    "homography computation.md",
     "Images/llff dataset/fortress/renders",
     "Images/llff dataset/fortress/gt",
-    "Images/llff dataset/fortress",
-    "Images/llff dataset/horns/renders",
-    "Images/llff dataset/horns/gt",
-    "Images/llff dataset/horns",
-    "Images/llff dataset/trex/renders",
-    "Images/llff dataset/trex/gt",
-    "Images/llff dataset/trex",
-    "Images/llff dataset/orchids/renders"
+    "Images/llff dataset/fortress"
   ]
 }
