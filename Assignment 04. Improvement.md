@@ -1,3 +1,6 @@
+> Student 01: Le Pham Nhat Quynh -- UID: 20125110
+> Student 02: Truong Thuy Tuong Vy -- UID: 20125125
+
 # Improvement
 
 - Our method introduces a improvement by leveraging a continuous representation achieved through the integration of a hash grid, codebook, and neural network. This innovative approach aims to minimize storage requirements while simultaneously enhancing rendering speed.
@@ -52,19 +55,18 @@
 | stump    | ![[Images/improved/stump.png]] | ![[Images/mipnerf360/stump_gt.png]] |
 | room     | ![[Images/improved/room.png]] | ![[Images/mipnerf360/room_gt.png]] |
 # Tank&Temple
-### Result (New)
+### Result
 
-|       | SSIM  | PSNR   | LPIPS |
-| ----- | ----- | ------ | ----- |
-| truck | 0.870 | 24.54  | 0.159 |
-| train | 0.796 | 21.263 | 0.233 | 
-
-### Comparison
-
-|                            | truck | train  |
-| -------------------------- | ----- | ------ |
-| Vanilla gaussian splatting | 24.08 | 19.65  |
-| Ours                       | 24.54 | 21.263 |
+|      | Scene        | truck  | train  |
+| ---- | ------------ | ------ | ------ |
+|      | SSIM         | 0.82   | 0.67   |
+|      | PSNR         | 24.08  | 19.65  |
+|      | LPIPS        | 0.21   | 0.37   |
+| 3DGS | Storage (MB) | 608.70 | 255.82 |
+|      | SSIM         | 0.87   | 0.796  |
+|      | PSNR         | 24.54  | 21.263 |
+|      | LPIPS        | 0.159  | 0.233  | 
+| Ours | Storage (MB) | 41.57  | 37.29  |
 ### Visualize
 |          | Render Image    | Grouth truth     | 
 | -------- | ------- | -------- |
@@ -75,23 +77,16 @@
 
 ### Result
 
-|          | SSIM  | PSNR   | LPIPS |
-| -------- | ----- | ------ | ----- |
-| fern     | 0.808 | 23.897 | 0.214 |
-| flower   | 0.844 | 27.058 | 0.214 |
-| fortress | 0.882 | 29.848 | 0.178 |
-| horns    | 0.878 | 26.551 | 0.190 |
-| orchids  | 0.656 | 19.614 | 0.246 |
-| room     | 0.945 | 30.041 | 0.142 |
-| trex     | 0.902 | 25.441 | 0.189 |
-
-### Comparison
-
-
-|                            | fern   | flower | fortress | horns  | orchids | room   | trex   |
-| -------------------------- | ------ | ------ | -------- | ------ | ------- | ------ | ------ |
-| Vanilla gaussian splatting | 23.897 | 27.145 | 29.856   | 27.129 | 19.728  | 31.593 | 25.45  |
-| Ours                       | 23.897 | 27.058 | 29.848   | 26.551 | 19.614  | 30.041 | 25.441 |
+|      | Scene        | fern  | flower | fortress | horns | orchids | room  | trex  |
+| ---- | ------------ | ----- | ------ | -------- | ----- | ------- | ----- | ----- |
+|      | SSIM         | 0.81  | 0.85   | 0.88     | 0.89  | 0.67    | 0.95  | 0.90  |
+|      | PSNR         | 23.90 | 27.15  | 29.86    | 27.13 | 19.73   | 31.59 | 25.45 |
+|      | LPIPS        | 0.21  | 0.21   | 0.17     | 0.18  | 0.24    | 0.13  | 0.19  |
+| 3DGS | Storage (MB) | 252.9 | 150.6  | 204.1    | 257.4 | 341.5   | 76.1  | 190.3 |
+|      | SSIM         | 0.81  | 0.84   | 0.88     | 0.88  | 0.66    | 0.95  | 0.90  |
+|      | PSNR         | 23.90 | 27.06  | 29.85    | 26.55 | 19.61   | 30.04 | 25.44 |
+|      | LPIPS        | 0.21  | 0.21   | 0.18     | 0.19  | 0.25    | 0.14  | 0.19  |
+| Ours | Storage (MB) | 48    | 27.2   | 42.2     | 48.23 | 68.9    | 15.22 | 38.06 | 
 
 ### Visualize
 
