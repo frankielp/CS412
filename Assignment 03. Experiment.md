@@ -34,7 +34,7 @@
 | room     | 0.9263788 | 31.8010044 | 0.1970576 |
 
 ### Visualize
-|          | Render Image    | Grouth truth     | 
+|          | Render Image    | Grouth truth | 
 | -------- | ------- | -------- |
 | bicycle  | ![[Images/mipnerf360/bicycle.png]] | ![[Images/mipnerf360/bicycle_gt.png]] |
 | bonsai   | ![[Images/mipnerf360/bonsai.png]] | ![[Images/mipnerf360/bonsai_gt.png]] |
