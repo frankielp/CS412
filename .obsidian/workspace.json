@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f7a3b899be00a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assignment 03. Experiment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -149,6 +161,8 @@
   },
   "active": "f1939085ff361baf",
   "lastOpenFiles": [
+    "Assignment 03. Experiment.md",
+    "Assignment 04. Improvement.md",
     "Images/tank&temple/train_3dgs.png",
     "Images/tank&temple/00000.png",
     "Images/tank&temple/truck_3dgs.png",
@@ -159,9 +173,7 @@
     "Images/llff dataset/fern_2dgs.png",
     "Images/llff dataset/trex_3dgs.png",
     "Images/llff dataset/trex_2dgs.png",
-    "Images/llff dataset/room_3dgs.png",
     "README.md",
-    "Assignment 03. Experiment.md",
     "20125110-20125125-Submission02.zip",
     "Assignment 03. Experiment.zip",
     "Assignment 03. Experiment.pdf",
