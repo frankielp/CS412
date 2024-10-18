@@ -1,1 +1,1 @@
-# CS412-ComputerVision
+# CS412 - Computer Vision
